@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+     <h1>payment form </h1>
+     <h2>contact information </h2>
+     <p>NAME: *<INPUT type="text"NAME="NAME" required></p>
+        <FIELDSET>
+            <legend>GENDER *</legend>
+            <P>
+               MALE<INPUT type="radio" name="GENDER" id="MALE" required>
+              FEMALE<input type="radio"name="GENDER" id="FEMALE"required>
+               </P>
+            </FIELDSET>
+             <P>address: <textarea name="address" id="address" cols="30"></textarea> </P> 
+             <p>email: *<input type="email" name="email" id="email"required></p>
+             <p>pincode: *<input type="number" name="pincode" id="pincode" required></p>
+             <h2> payment information</h2>
+             <p>CARD *
+                <SELECT name="CARD TYPE" id="card type" required>
+                <option value="">---select a card type---</option>
+                <option value="VISA">VISA</option>
+                <option value="rupay">rupay</option>
+                <option value="mastercard">mastercard</option>    
+                </SELECT>
+             </p>
+             <p>
+                card number *<input type="number" name="card number" id="card number" required>
+             </p>
+             
+             <p>
+                Epiration Date: *<input type="date" name="exp_date" id="exp_date" required>
+             </p>
+
+             <p>
+                CVV *<input type="password" name="password" id="password" required >
+            </p>
+            <input type="submit" value="pay now">
+        
+     
+
+
+    </form>
+
+</body>
+</html>
